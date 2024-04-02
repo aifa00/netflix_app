@@ -1,0 +1,40 @@
+/*footer*/
+.rowfooter{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    padding: 40px 15% 10px;
+    color: #777;
+    border-top: 1px solid rgb(155, 155, 155);
+    margin-top: 50px;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    
+}
+.footer .col{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.footer .col a{
+    
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .english{
+    color: white;
+    padding: 6px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.Netflixindia{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}

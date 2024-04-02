@@ -1,0 +1,63 @@
+.body{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('https://www.slashgear.com/img/gallery/netflix-4k-streaming-on-macos-big-sur-to-require-a-t2-security-chip/intro-import.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.loginParentDiv {
+    border: 1px solid rgb(255, 255, 255);    
+    width: 400px;
+    padding-inline: 60px;
+    padding-block: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+}
+  
+  .loginParentDiv .input {    
+    width: 100%;
+    background: transparent;
+    margin-top: 5px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline-color: transparent;
+    outline: none;
+    color: white;
+    padding-block: 5px;
+  }
+
+  .loginParentDiv {
+    color: white;
+  }
+  
+  .loginParentDiv button {
+    width: 100%;
+    height: 48px;
+    border: none;
+    background-color: #fa0606;
+    color: whitesmoke;
+    font-weight: 900;
+  }
+  .loginParentDiv button:hover {
+    background-color: transparent;
+    color: #fa0606;
+    border: 2px solid #fa0606;
+    cursor: pointer;
+  }
+  
+  .loginParentDiv span {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding-block: 5px;
+  }
+
+  .error {
+    font-size: 14px;
+    color: red;    
+  }
