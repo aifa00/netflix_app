@@ -26,7 +26,6 @@ function RowPost(props) {
         const response = await axios.get(url);
         const results = response.data.results;
         setMovies(results);
-        console.log(response.data);
       } catch (error) {
         console.log(error.message);
       }
@@ -54,7 +53,6 @@ function RowPost(props) {
   const handleClick = (id) => {
     const fetchData = async () => {
       try {
-        console.log(id);
         const response = await axios.get(
           `/movie/${id}/videos?api_key=${API_KEY}&language=en-US`
         );
@@ -63,8 +61,6 @@ function RowPost(props) {
           removeAllUrls();
           setUrlKey(response.data.results[0].key);
         }
-
-        console.log(response.data);
       } catch (error) {
         console.log(error.message);
       }
